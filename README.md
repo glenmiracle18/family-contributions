@@ -86,8 +86,8 @@ Dear {{.Name}}. This is a reminder of your monthly contribution of MWK {{.Commit
 
 ## Upcoming Features
 
-[] Abulity to send an individualized monthly PDF summary of member contributions
-[] Ability to send a Thank you SMS whenever a new contribution has been recorded in the spreadsheet
+- [ ] Abulity to send an individualized monthly PDF summary of member contributions
+- [ ] Ability to send a Thank you SMS whenever a new contribution has been recorded in the spreadsheet
 
 ## License
 This project is licensed under the MIT License.

@@ -1,4 +1,4 @@
-# Family Contributions [FamCon]
+# 👨‍👩‍👦 📲 Family Contributions [FamCon]
 A Go package that reads group contribution membership data from a Google Sheet and sends SMS reminders to members about their upcoming monthly contributions and produces an individualized monthly statement of contributions.
 
 Suitable if you have a family, co-worker group that wants to be contributing monthly for a common a goal, but would like to automate the communication part!
@@ -22,7 +22,7 @@ To use this package, you need to have:
 {
     "accountSid": "REPLACE_ME",
     "authToken": "REPLACE_ME",
-    "phoneNumber: "REPLACE_ME"
+    "phoneNumber": "REPLACE_ME"
 }
 ```
 
@@ -69,14 +69,14 @@ For a complete example, refer to the sample application (not included in the pac
 ### The Google Sheet should have the following columns:
 
 ```csv
-| Name | Phone Number | Monthly Commitment | Jan 2023 | Feb 2023 | March 2023 |
+Name, Phone Number, Monthly Commitment, Jan 2023, Feb 2023, March 2023
 ```
 * Name: Member's name
 * Phone Number: Member's phone number
 * Monthly Commitment: Member's monthly contribution amount
 * Jan 2023, Feb 2023, March 2023, ...: Columns for each month, indicating all their monthly contribtions to date.  Typically you would like to keep the upcoming month blank for all members, so that the Reminder sends an SMS to everyone.  Otherwise SMSs will be sent only to non-paid members of the latest month (the last column) on record.
 
-## Customizing the Email Template
+## Customizing the SMS Template
 To customize the plain text SMS template, provide a custom template string when creating a new Reminder instance. The template should contain placeholders for the name, commitment, and next month values, enclosed in double curly braces (e.g., {{.Name}}, {{.Commitment}}, {{.NextMonth}}).
 Here's an example of a custom email template:
 

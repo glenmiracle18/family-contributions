@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*//slide in from left keyframe*/
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* slide out to left keyframe */
+@keyframes slideOutToLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+.slide-in-left {
+  animation: 0.2s ease-out 0s 1 slideInFromLeft;
+}
+
+.slide-out-left {
+  animation: 0.5s ease-out 0s 1 slideOutToLeft;
+}

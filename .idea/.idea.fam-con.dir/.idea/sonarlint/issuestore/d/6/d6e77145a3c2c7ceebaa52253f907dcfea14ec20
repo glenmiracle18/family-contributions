@@ -1,0 +1,43 @@
+
+\typescript:S1128"4Remove this unused import of 'FlowbiteTooltipTheme'.(Øü¸˜üÿÿÿÿ8€‘ĞŒã1
+Qtypescript:S1128".Remove this unused import of 'HiArrowSmRight'.(’¶ó°8‘ĞŒã1
+Mtypescript:S1128"%Remove this unused import of 'HiCog'.(…¾Ãşÿÿÿÿ8‘ĞŒã1
+Jtypescript:S1128"'Remove this unused import of 'HiInbox'.(›œ”8‘ĞŒã1
+Utypescript:S1128	"-Remove this unused import of 'HiShoppingBag'.(˜ç‰Óşÿÿÿÿ8‘ĞŒã1
+Jtypescript:S1128
+"'Remove this unused import of 'HiTable'.(ÿ€Ş¢8‘ĞŒã1
+Otypescript:S1128",Remove this unused import of 'HiViewBoards'.(œî©¢8‘ĞŒã1
+Ntypescript:S1128"&Remove this unused import of 'BiMoon'.(Ë—«øÿÿÿÿ8‘ĞŒã1
+¢typescript:S6844”"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8‚‘ĞŒã1
+Stypescript:S6772¶"*Ambiguous spacing before next element span(İ‡Òøÿÿÿÿ8‚‘ĞŒã1
+¢typescript:S6844Á"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8‚‘ĞŒã1
+Qtypescript:S6772á"-Ambiguous spacing after previous element span(•”ñĞ8‚‘ĞŒã1
+Qtypescript:S6772å"-Ambiguous spacing after previous element span(•”ñĞ8‚‘ĞŒã1
+¢typescript:S6844ï"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8‚‘ĞŒã1
+Qtypescript:S6772‘"-Ambiguous spacing after previous element span(•”ñĞ8‚‘ĞŒã1
+Qtypescript:S6772•"-Ambiguous spacing after previous element span(•”ñĞ8‚‘ĞŒã1
+¢typescript:S6844Ÿ"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8‚‘ĞŒã1
+êtypescript:S6851¤"ÅRedundant alt attribute. Screen-readers already announce `img` tags as an image. You don\u8217t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop.(Æœ¢Ã8ƒ‘ĞŒã1
+Qtypescript:S6772Á"-Ambiguous spacing after previous element span(•”ñĞ8ƒ‘ĞŒã1
+Qtypescript:S6772Æ"-Ambiguous spacing after previous element span(•”ñĞ8ƒ‘ĞŒã1
+¢typescript:S6844Ğ"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8ƒ‘ĞŒã1
+êtypescript:S6851Õ"ÅRedundant alt attribute. Screen-readers already announce `img` tags as an image. You don\u8217t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop.(Æœ¢Ã8ƒ‘ĞŒã1
+Qtypescript:S6772ğ"-Ambiguous spacing after previous element span(•”ñĞ8„‘ĞŒã1
+¢typescript:S6844ü"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8„‘ĞŒã1
+¢typescript:S6844®"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8„‘ĞŒã1
+¢typescript:S6844Á"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8…‘ĞŒã1
+¢typescript:S6844Ò"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8…‘ĞŒã1
+¢typescript:S6844å"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8…‘ĞŒã1
+¢typescript:S6844ú"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8…‘ĞŒã1
+¢typescript:S6844"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8…‘ĞŒã1
+¢typescript:S6844¥"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8…‘ĞŒã1
+¢typescript:S6844½"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8…‘ĞŒã1
+¢typescript:S6844Ò"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8…‘ĞŒã1
+êtypescript:S6851ó"ÅRedundant alt attribute. Screen-readers already announce `img` tags as an image. You don\u8217t need to use the words `image`, `photo,` or `picture` (or any specified custom words) in the alt prop.(Æœ¢Ã8†‘ĞŒã1
+¢typescript:S6844Œ"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8†‘ĞŒã1
+¢typescript:S6844“"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8†‘ĞŒã1
+¢typescript:S6844Ÿ"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8†‘ĞŒã1
+¢typescript:S6844³"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8†‘ĞŒã1
+¢typescript:S6844Å"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8†‘ĞŒã1
+¢typescript:S6844î"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(­ÈÎ´üÿÿÿÿ8†‘ĞŒã1
+Ttypescript:S6770£"0Imported JSX component CTA must be in PascalCase(ïüÛî8†‘ĞŒã1

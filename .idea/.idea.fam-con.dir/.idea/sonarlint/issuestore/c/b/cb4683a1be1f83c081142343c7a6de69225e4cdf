@@ -1,0 +1,15 @@
+
+Ltypescript:S1128")Remove this unused import of 'useEffect'.(À†óÀ8¿¸ĞŒã1
+Ptypescript:S1128"-Remove this unused import of 'useNavigation'.(‡÷õ8¿¸ĞŒã1
+typescript:S6606"jPrefer using nullish coalescing operator (`??`) instead of a logical or (`||`), as it is a safer operator.(Å¨‹¼8¿¸ĞŒã1
+typescript:S6606"jPrefer using nullish coalescing operator (`??`) instead of a logical or (`||`), as it is a safer operator.(¤”®œ8À¸ĞŒã1
+œtypescript:S6844^"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(©ÙØ¹8À¸ĞŒã1
+œtypescript:S6844a"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(©ÙØ¹8À¸ĞŒã1
+typescript:S6844Ó"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(©ÙØ¹8À¸ĞŒã1
+Stypescript:S6853È"/A form label must be associated with a control.(ÚÖšë8À¸ĞŒã1
+Xtypescript:S6853ñ"/A form label must be associated with a control.(»Ê©üÿÿÿÿ8À¸ĞŒã1
+Rtypescript:S6853›"/A form label must be associated with a control.(œòÒi8À¸ĞŒã1
+Xtypescript:S6853Æ"/A form label must be associated with a control.(€™öıÿÿÿÿ8À¸ĞŒã1
+Xtypescript:S6853ò"/A form label must be associated with a control.(ƒˆ±Œüÿÿÿÿ8À¸ĞŒã1
+typescript:S6844°"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(©ÙØ¹8À¸ĞŒã1
+typescript:S6844¶"øThe href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles.(©ÙØ¹8À¸ĞŒã1

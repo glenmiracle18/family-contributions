@@ -5,21 +5,15 @@ import type {
 } from 'flowbite-react';
 import { Sidebar, Tooltip, ListGroup } from 'flowbite-react';
 import {
-    HiArrowSmRight,
     HiCalendar,
     HiChartPie,
-    HiCog,
     HiCreditCard,
     HiDocument,
-    HiInbox,
     HiInformationCircle,
     HiMoon,
     HiPencil,
-    HiShoppingBag,
-    HiTable,
     HiUser,
     HiUserGroup,
-    HiViewBoards,
 } from 'react-icons/hi';
 import { BiBuoy, BiGlobe, BiMoon, BiSolidCog } from 'react-icons/bi';
 import logo from '~/assets/images/logo.png';

@@ -7,12 +7,15 @@ import {
     Scripts,
     ScrollRestoration,
 } from '@remix-run/react';
+import { forwardRef } from 'react';
+import { BiListPlus, BiLogoSlack, BiLogoSoundcloud } from 'react-icons/bi';
 
 import stylesheet from '~/tailwind.css';
 
 export const links: LinksFunction = () => [
     { rel: 'stylesheet', href: stylesheet },
 ];
+
 
 export default function App() {
     return (

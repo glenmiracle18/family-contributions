@@ -67,7 +67,9 @@ export default function App() {
               data-dropdown-toggle="notification-dropdown"
               className="mr-1 rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 focus:ring-4 focus:ring-gray-300 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-600"
             >
+              {/* notifiaction dropdown */}
               <NotificationDropDown />
+
             </button>
 
             <div className="block bg-gray-50 px-4 py-2 text-center text-base font-medium text-gray-700 dark:bg-gray-600 dark:text-gray-300">

@@ -17,9 +17,13 @@ export default function WithSideView(props: WithSideViewProps) {
     const [dismissed, setDismissed] = useState(false);
 
     useEffect(() => {
+      // checks is the location is currently in create
         const isCreate = location.pathname.includes('create');
+        // checks is the location is currently in edit
         const isEdit = location.pathname.includes('edit');
+        // checks is the location is currently in view
         const isView = location.pathname.includes('view');
+        // changes the title state based on the current location:
         const title = isCreate
             ? `Create New ${props.model}`
             : isEdit
@@ -27,14 +31,16 @@ export default function WithSideView(props: WithSideViewProps) {
               : isView
                 ? `${props.model} Details`
                 : '';
-
+        // udating the title state
         setTitle(title);
+        // dependecy array of locations, cuz this function re-runs when the location changes
     }, [location]);
 
     const dismiss = () => {
         setDismissed(true);
         navigate(props.redirectTo);
     };
+
     return (
         <div>
             {title.length > 0 && !dismissed && (

@@ -1,0 +1,71 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  21.7.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/glen/Library/Caches/Yarn/v6/npm-glob-parent-6.0.2-6d237d99083950c79290f24c7642a3de9a28f9e3-integrity/node_modules/glob-parent/LICENSE' -> '/Users/glen/Desktop/Developers/family-contributions/node_modules/eslint/node_modules/glob-parent/LICENSE'
+
+npm manifest: 
+  {
+      "name": "fam-con",
+      "private": true,
+      "sideEffects": false,
+      "type": "module",
+      "scripts": {
+          "build": "remix build",
+          "dev": "remix dev --manual",
+          "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
+          "start": "remix-serve ./build/index.js",
+          "test": "vitest",
+          "typecheck": "tsc"
+      },
+      "dependencies": {
+          "@remix-run/css-bundle": "^2.8.1",
+          "@remix-run/node": "^2.8.1",
+          "@remix-run/react": "^2.8.1",
+          "@remix-run/serve": "^2.8.1",
+          "flowbite-react": "^0.7.3",
+          "isbot": "^4.1.0",
+          "react": "^18.2.0",
+          "react-dom": "^18.2.0",
+          "react-icons": "^5.0.1",
+          "tailwind-merge": "^2.2.1",
+          "ts-transformer-keys": "^0.4.4"
+      },
+      "devDependencies": {
+          "@remix-run/dev": "^2.8.1",
+          "@types/react": "^18.2.20",
+          "@types/react-dom": "^18.2.7",
+          "@typescript-eslint/eslint-plugin": "^6.7.4",
+          "@typescript-eslint/parser": "^6.7.4",
+          "eslint": "^8.38.0",
+          "eslint-import-resolver-typescript": "^3.6.1",
+          "eslint-plugin-import": "^2.28.1",
+          "eslint-plugin-jsx-a11y": "^6.7.1",
+          "eslint-plugin-react": "^7.33.2",
+          "eslint-plugin-react-hooks": "^4.6.0",
+          "tailwindcss": "^3.4.1",
+          "typescript": "^5.1.6",
+          "vitest": "^1.3.1"
+      },
+      "engines": {
+          "node": ">=18.0.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

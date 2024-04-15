@@ -1,17 +1,11 @@
-
-import { Tooltip } from "flowbite-react";
-
-
 // codebase-imports
-import { SearchBox } from "~/components/widgets/search-box";
-import { HamburgerIcon } from "~/components/svgs/hamburger-icon";
+import { SearchBox } from "~/components/widgets/SearchBox";
+import { HamburgerIcon } from "~/components/svgs/HamburgerIcon";
 import { FamConLogo } from "~/components/widgets/brand/FamConLogo";
-import { SearchIcon } from "~/components/svgs/search-icon";
-import { NotificationDropDown } from "~/components/widgets/Notification-dropdown";
+import { SearchIcon } from "~/components/svgs/SearchIcon";
+import { NotificationDropDown } from "~/components/widgets/NotificationDropdown";
 import { SidebarComponent } from "~/components/blocks/sidebar";
 import { Outlet } from "@remix-run/react";
-
-
 
 export default function App() {
   return (
@@ -34,7 +28,7 @@ export default function App() {
             {/* search icon */}
             <button
               type="button"
-              onClick={() => { }}
+              onClick={() => {}}
               className="mr-1 rounded-lg p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-900 focus:ring-4 focus:ring-gray-300 md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-600"
             >
               <span className="sr-only">Toggle search</span>

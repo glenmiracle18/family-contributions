@@ -1,5 +1,5 @@
 import { Dropdown } from "flowbite-react";
-import { NotificationIcon } from "../svgs/notification-icon";
+import { NotificationIcon } from "../svgs/NotificationIcon";
 
 export const NotificationDropDown = () => {
   return (

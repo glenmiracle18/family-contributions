@@ -18,7 +18,7 @@ import type {
 } from "flowbite-react";
 
 import SidebarCta from "./SidebarCta";
-import { SidebarTheme } from "./SidebarTheme";
+import { SidebarTheme } from "~/theme/overides/SidebarTheme";
 
 const sideBarTheme: FlowbiteSidebarTheme = SidebarTheme;
 

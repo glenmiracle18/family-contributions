@@ -13,22 +13,24 @@ interface WithSideViewProps {
 export default function WithSideView(props: WithSideViewProps) {
   const navigate = useNavigate();
   const location = useLocation();
-  const [title, setTitle] = useState("");
-  const [dismissed, setDismissed] = useState(false);
+  const [title, setTitle] = useState<string>("");
+  const [dismissed, setDismissed] = useState<boolean>(false);
 
   useEffect(() => {
     const isCreate = location.pathname.includes("create");
     const isEdit = location.pathname.includes("edit");
     const isView = location.pathname.includes("view");
 
-    const title = isCreate
-      ? `Create New ${props.model}`
-      : isEdit
-        ? `Edit ${props.model}`
-        : isView
-          ? `${props.model} Details`
-          : "";
+    let title = "";
+    if (isCreate) {
+      title = `Create New ${props.model}`;
+    } else if (isEdit) {
+      title = `Edit ${props.model}`;
+    } else if (isView) {
+      title = `${props.model} Details`;
+    }
     setTitle(title);
+
   }, [location]);
 
   const dismiss = () => {

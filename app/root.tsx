@@ -7,6 +7,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import { ThemeModeScript } from "flowbite-react";
 
 import stylesheet from "~/tailwind.css";
 
@@ -22,6 +23,7 @@ export default function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        <ThemeModeScript />
       </head>
       <body>
         <Outlet />

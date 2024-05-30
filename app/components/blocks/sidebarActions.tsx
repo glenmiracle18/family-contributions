@@ -4,7 +4,7 @@ import { cn } from "~/utils/cn";
 
 interface SidebarActionsProps {
   href: string;
-  icon: IconType;
+  icon?: IconType;
   className?: string;
   onClick?: React.MouseEventHandler<HTMLAnchorElement>;
 }

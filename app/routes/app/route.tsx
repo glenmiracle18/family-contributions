@@ -56,7 +56,7 @@ export default function App() {
         <SidebarComponent />
       </aside>
 
-      <main className="h-screen p-4 pt-20 md:ml-64">
+      <main className="p-4 pt-20 md:ml-64">
         <Outlet />
       </main>
     </div>

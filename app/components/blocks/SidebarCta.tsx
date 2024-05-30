@@ -1,13 +1,14 @@
-import { Sidebar, ListGroup, Tooltip, useThemeMode } from "flowbite-react";
-import { BiGlobe, BiSolidCog, BiMoon } from "react-icons/bi";
+import { Sidebar, ListGroup, Tooltip, DarkThemeToggle } from "flowbite-react";
+import { BiGlobe, BiSolidCog } from "react-icons/bi";
 import { SidebarActions } from "./sidebarActions";
 
 const SidebarCta = () => {
-  const { toggleMode } = useThemeMode();
+  // const { toggleMode } = useThemeMode(); // hook that can be used to change the page theme
   return (
     <Sidebar.CTA>
       <div className="absolute bottom-0 left-0 z-20 hidden w-full justify-center space-x-4 bg-white p-4 lg:flex dark:bg-gray-800">
-        <SidebarActions href="#" icon={BiMoon} onClick={toggleMode} />
+        <DarkThemeToggle />
+
         <SidebarActions href="#" icon={BiSolidCog} />
         <Tooltip
           aria-labelledby="default-popover"

@@ -1,4 +1,5 @@
 import type { LinksFunction } from '@remix-run/node';
+import { ThemeModeScript } from "flowbite-react";
 import {
     Links,
     LiveReload,
@@ -25,6 +26,7 @@ export default function App() {
                 />
                 <Meta />
                 <Links />
+                </ThemeModeScript>
             </head>
             <body>
                 <Outlet />

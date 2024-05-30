@@ -5,7 +5,7 @@ import { SidebarActions } from "./sidebarActions";
 const SidebarCta = () => {
   // const { toggleMode } = useThemeMode(); // hook that can be used to change the page theme
   return (
-    <Sidebar.CTA>
+    <Sidebar.CTA className="dark:bg-gray-800 bg-gray-50">
       <div className="absolute bottom-0 left-0 z-20 hidden w-full justify-center space-x-4 bg-white p-4 lg:flex dark:bg-gray-800">
         <DarkThemeToggle />
 
